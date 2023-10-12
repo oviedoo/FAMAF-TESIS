@@ -6,7 +6,10 @@
   list-style: none;
   text-decoration: none;
 }
-
+*::selection{
+  background-color: #0B8BAB;
+  color: #fff;
+}
 body {
   background-color: #F5F4F9;
   display: flex;
@@ -65,7 +68,7 @@ body {
 }
 
 .nav__link--inside:hover {
-  color: #A4B89E;
+  color: #0B8BAB;
 }
 
 .list__arrow {
@@ -92,7 +95,7 @@ body {
 
 .conteiner {
   padding: 10px;
-  width: 100vh;
+  width: 100%;
   background-color: #FEFEFE;
   border-radius: 5px;
   margin: 20px 20px 20px 40px;
@@ -103,12 +106,12 @@ body {
 }
 
 .table__conteiner {
-  width: 700px;
+  
   text-align: center;
 }
 
 .table {
-  width: 900px;
+  width: 1400px;
   text-align: center;
   border: none;
 }
